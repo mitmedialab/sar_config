@@ -45,10 +45,6 @@ git clone git+ssh://git@github.com/personal-robots/sar_cognition_node
 git clone git+ssh://git@github.com/personal-robots/timer_node
 git clone git+ssh://git@github.com/personal-robots/sar_jar
 
-# organize the sar project
-mkdir -p ~/projects/sar/
-cd ~/projects/sar
-
 
 
 
