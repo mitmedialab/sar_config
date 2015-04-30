@@ -1,0 +1,10 @@
+{
+"name": "PicnicTable",
+"word":["picnic,table"],
+"tag": "PlayObject",
+"draggable": "false",
+"audioFile": "TableSpanish",
+"position": [-347,109,1],
+"scale": [143,143,143],
+"variable":false
+}

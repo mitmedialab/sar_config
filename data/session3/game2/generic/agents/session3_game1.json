@@ -1,0 +1,1047 @@
+{
+  "type": "english",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"LetsGoToPark"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"robot", "say":"WooCome"},
+            {"agent":"toucan", "say":"ParksArePretty"},
+            {"agent":"robot", "say":"ComeWith"},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"AtThePark"},
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"LetsSetUpPicnic"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        }
+      ]
+    }
+  ],
+ 
+  "directions":
+  [
+    {
+      "trigger":"fish",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FishTable"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"soup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"SoupTree"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bread",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"BreadBasket"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"strawberry",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"StrawberryBasket"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"drink",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"DrinkTable"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"chicken",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ChickenTable"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"milk",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"MilkTable"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"apple",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"AppleTable"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluecookie",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"BlueCookieTable"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"redcookie",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"RedCookieTable"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluecup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"BlueCupTree"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redcup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"RedCupTree"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "tap":  
+  [
+    {
+      "trigger":"milk",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"OhWow"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"MilkInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"drink",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"WhatWasThat"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"DrinkInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"strawberry",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"OhWow"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"StrawberryInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"chicken",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"DidYouHear"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"ChickenInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"soup",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"DidYouHear"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"SoupInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"fish",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"WhatWasThat"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"FishInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"bread",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"OhWow"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"BreadInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"apple",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"WhatWasThat"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"AppleInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluecup",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"OhWow"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"BlueCupInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"redcup",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"WhatWasThat"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"RedCupInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluecookie",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"OhWow"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"BlueCookieInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"redcookie",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"WhatWasThat"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"RedCookieInSpanish"}
+           ]
+        }
+      ]
+    }
+  ],
+
+
+  "timer": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"robot", "say":"MoveFinger"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"TouchPicture"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"TouchGently"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        }
+      ]
+    }
+  ],
+
+  "correct": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Great"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Awesome"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"GoodJob"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Right"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        }
+      ]
+    }
+  ],
+ 
+  "wrong":
+  [
+    {
+      "trigger":"milk",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintMilk"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"milk"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    
+    {
+      "trigger":"drink",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintDrink"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"drink"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+   
+   { 
+      "trigger":"strawberry",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintStrawberry"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"strawberry"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    
+    {
+      "trigger":"chicken",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintChicken"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"chicken"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    
+    {
+      "trigger":"soup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintSoup"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"soup"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"fish",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintFish"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"fish"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bread",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintBread"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bread"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"apple",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintApple"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"apple"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluecup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintBlueCup"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bluecup"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redcup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintRedCup"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"redcup"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluecookie",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintBlueCookie"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bluecookie"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redcookie",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HintRedCookie"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"redcookie"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    }
+  ],
+
+ 
+  "hint":  
+  [
+    {
+      "trigger":"milk",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"milk"},
+            {"agent":"robot", "say":"MilkMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"drink",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"drink"},
+            {"agent":"robot", "say":"DrinkMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"strawberry",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"strawberry"},
+            {"agent":"robot", "say":"StrawberryMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"chicken",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"chicken"},
+            {"agent":"robot", "say":"ChickenMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"soup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"soup"},
+            {"agent":"robot", "say":"SoupMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"fish",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"fish"},
+            {"agent":"robot", "say":"FishMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bread",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bread"},
+            {"agent":"robot", "say":"BreadMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"apple",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"apple"},
+            {"agent":"robot", "say":"AppleMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bluecup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bluecup"},
+            {"agent":"robot", "say":"BlueCupMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redcup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"redcup"},
+            {"agent":"robot", "say":"RedCupMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluecookie",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bluecookie"},
+            {"agent":"robot", "say":"BlueCookieMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redcookie",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"redcookie"},
+            {"agent":"robot", "say":"RedCookieMove"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "answer":  
+  [
+    {
+      "trigger":"milk",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixMilk"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"drink",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixDrink"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"strawberry",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixStrawberry"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"chicken",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixChicken"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"soup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixSoup"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"fish",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixFish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bread",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixBread"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"apple",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixApple"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bluecup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixBlueCup"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redcup",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixRedCup"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluecookie",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixBlueCookie"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+   {
+      "trigger":"redcookie",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixRedCookie"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ],
+
+ "closing": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"robot", "say":"AllSetUp"},
+            {"agent":"toucan", "say":"WooHooToucan"}
+          ] 
+        }
+      ]
+    }
+  ]
+
+}

@@ -1,0 +1,10 @@
+{
+"name": "BlueBall2",
+"word":["blue","ball"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BlueBallSpanish",
+"position": [120,109,0],
+"scale": [40,40,40],
+"variable":true
+}

@@ -1,0 +1,10 @@
+{
+"name": "Strawberry",
+"word":["strawberry"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "StrawberrySpanish",
+"position": [-182,-320,0],
+"scale": [50,50,50],
+"variable":true
+}

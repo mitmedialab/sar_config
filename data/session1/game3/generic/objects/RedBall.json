@@ -1,0 +1,10 @@
+{
+"name": "RedBall2",
+"word":["red","ball"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "RedBallSpanish",
+"position": [-187,-28,0],
+"scale": [100,100,100],
+"variable":true
+}

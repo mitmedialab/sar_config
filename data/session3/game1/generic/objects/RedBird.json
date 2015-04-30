@@ -1,0 +1,10 @@
+{
+"name": "RedBird",
+"word":["bird","red"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "RedBirdSpanish",
+"position": [-450,340,0],
+"scale": [100,100,100],
+"variable":true
+}

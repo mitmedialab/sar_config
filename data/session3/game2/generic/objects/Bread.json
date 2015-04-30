@@ -1,0 +1,10 @@
+{
+"name": "Bread",
+"word":["bread"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BreadSpanish",
+"position": [111,-70,0],
+"scale": [50,50,50],
+"variable":true
+}

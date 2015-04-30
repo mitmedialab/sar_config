@@ -1,0 +1,10 @@
+{
+"name": "RedCup",
+"word":["red,cup"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "RedCupSpanish",
+"position": [-176,-105,0],
+"scale": [50,50,50],
+"variable":true
+}

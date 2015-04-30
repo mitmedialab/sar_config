@@ -1,0 +1,10 @@
+{
+"name": "BigBear",
+"word":["big","bear"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BigBearSpanish",
+"position": [543,317,0],
+"scale": [103,103,103],
+"variable":true
+}

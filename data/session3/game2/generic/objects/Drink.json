@@ -1,0 +1,10 @@
+{
+"name": "Drink",
+"word":["drink"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "DrinkSpanish",
+"position": [47,169,0],
+"scale": [50,50,50],
+"variable":true
+}

@@ -1,0 +1,66 @@
+azul,2,color,blue,0.8770719079088161
+roja,3,color,red,0.40881539026058866
+pelota,2,item,ball,0.7795042436857766
+limpia,2,adjective,clean,0.95
+sucia,2,adjective,dirty,0.95
+blusa,1,item,shirt,0.95
+sombrero,2,item,hat,0.95
+armario,3,furniture,closet,0.7686860369142251
+maleta,2,furniture,suitcase,0.410971395106615
+pequeno,3,adjective,little,0.8390926262113306
+grande,1,adjective,big,0.6596039307941055
+mono,1,animal,monkey,0.4736637209483395
+bananas,1,food,bananas,0.4736637209483395
+oso,1,animal,bear,0.5690664966731739
+pajaro,3,animal,bird,0.48922579282182316
+tigre,1,animal,tiger,0.5690664966731739
+jirafa,2,animal,giraffe,0.5113765297349472
+jaula,3,item,cage,0.867398439981647
+elefante,1,animal,elephant,0.3801459231315738
+mesa,1,furniture,table,0.6694032998538968
+canasta de picnic,2,furniture,picnic basket,0.5113765297349471
+leche,2,food,milk,0.5113765297349472
+bebida,2,food,drink,0.5113765297349472
+fresa,2,food,strawberry,0.7944809322277421
+pollo,3,food,chicken,0.6792486684178918
+sopa,1,food,soup,0.5690664966731739
+pescado,3,food,fish,0.6792486684178918
+pan,1,food,bread,0.4736637209483395
+manzana,2,food,apple,0.5113765297349472
+taza,1,item,cup,0.6599656855850615
+galleta,3,food,cookie,0.6792486684178918
+arbol,2,item,tree,0.7204480286177968
+verde,2,color,green,0.5223530371972496
+amarilla,3,color,yellow,0.6985835672405786
+rosa,1,color,pink,0.4785832863193304
+mariposa,3,animal,butterfly,0.9036534426293806
+oruga,2,animal,caterpillar,0.5113765297349472
+ardilla,3,animal,squirrel,0.7686860369142251
+pato,1,animal,duck,0.4736637209483395
+flor,1,item,flower,0.5694616659335785
+gato,1,animal,cat,0.4736637209483395
+perro,2,animal,dog,0.43054554890202784
+cama,1,furniture,bed,0.4736637209483395
+ventana,2,furniture,window,0.410971395106615
+lampara,2,furniture,lamp,0.6108719943188904
+sofa,1,furniture,couch,0.5690664966731739
+caja,2,item,box,0.5448076347554286
+silla,3,furniture,chair,0.7686860369142251
+bano,1,furniture,tub,0.4736637209483395
+lavamanos,3,furniture,sink,0.7686860369142251
+cesto de ropa,2,furniture,laundry basket,0.4216525155031419
+jabon,2,item,soap,0.5448076347554286
+champu,1,item,shampoo,0.7481884163412119
+toalla,3,item,towel,0.9036534426293806
+pierna,2,body part,leg,0.7019172088652142
+cara,1,body part,face,0.4736637209483395
+oreja,3,body part,ear,0.6985835672405786
+cabeza,2,body part,head,0.5113765297349472
+calo,1,body part,tail,0.3801459231315738
+globos,1,item,balloons,0.5694616659335785
+torta,1,food,cake,0.3801459231315738
+magdalena,3,food,cupcake,0.7686860369142251
+regalo,2,item,present,0.7204480286177967
+feliz,2,emotion,happy,0.5113765297349471
+triste,2,emotion,sad,0.5113765297349472
+amigos,2,item,friends,0.7204480286177968

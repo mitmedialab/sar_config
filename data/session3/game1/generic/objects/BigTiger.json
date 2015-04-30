@@ -1,0 +1,10 @@
+{
+"name": "BigTiger",
+"word":["tiger","big"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BigTigerSpanish",
+"position": [188,-266,0],
+"scale": [92,92,92],
+"variable":true
+}

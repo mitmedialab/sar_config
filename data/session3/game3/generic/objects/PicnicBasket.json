@@ -1,0 +1,10 @@
+{
+"name": "PicnicBasket",
+"word":["picnic,basket"],
+"tag": "PlayObject",
+"draggable": "false",
+"audioFile": "PicnicBasketSpanish",
+"position": [509,-230,1],
+"scale": [69,69,69],
+"variable":false
+}

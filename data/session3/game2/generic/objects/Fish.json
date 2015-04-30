@@ -1,0 +1,10 @@
+{
+"name": "Fish",
+"word":["fish"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "FishSpanish",
+"position": [4,-316,0],
+"scale": [55,55,55],
+"variable":true
+}

@@ -1,0 +1,10 @@
+{
+"name": "Milk",
+"word":["milk"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "MilkSpanish",
+"position": [-58,-152,0],
+"scale": [42,42,42],
+"variable":true
+}

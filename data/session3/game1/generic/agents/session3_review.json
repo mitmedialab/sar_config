@@ -1,0 +1,285 @@
+{
+  "type": "review",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"LastTimeBanana"},
+            {"agent":"robot", "say":"RememberBananas"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "do":"FlapWings"}
+          ] 
+        }
+      ]
+    }
+  ],
+ 
+  "directions":
+  [
+    {
+      "trigger":"bigbear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewBigBear"},
+            {"agent":"robot", "say":"AnimalBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"littlebear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewLittleBear"},
+            {"agent":"robot", "say":"WhoBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bigbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewBigBird"},
+            {"agent":"robot", "say":"AskedBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"littlebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewLittleBird"},
+            {"agent":"robot", "say":"HungryBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"biggiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewBigGiraffe"},
+            {"agent":"robot", "say":"ShareBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigtiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewBigTiger"},
+            {"agent":"robot", "say":"AnimalBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"littletiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewLittleTiger"},
+            {"agent":"robot", "say":"WhoBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewBlueBird"},
+            {"agent":"robot", "say":"AnimalBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"redbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewRedBird"},
+            {"agent":"robot", "say":"HungryBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"cleanelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewCleanElephant"},
+            {"agent":"robot", "say":"AskedBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"dirtyelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewDirtyElephant"},
+            {"agent":"robot", "say":"WhoBanana"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"monkey",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewMonkeyOut"},
+            {"agent":"robot", "say":"HelpMonkeyOut"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+
+  ],
+
+  "timer": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"TouchPicture"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"TouchGently"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        }
+      ]
+    }
+  ],
+
+  "correct": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Great"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Awesome"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"GoodJob"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Right"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        }
+      ]
+    }
+  ],
+ 
+ "closing": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"AnimalsFed"},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"toucan", "do":"FlapWings"}
+          ] 
+        }
+      ]
+    }
+  ]
+
+}

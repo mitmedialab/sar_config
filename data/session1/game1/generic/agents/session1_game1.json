@@ -1,0 +1,739 @@
+{
+  "type": "english",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"NeedToPack"},
+            {"agent":"robot", "do":"AGREEMENT"},
+            {"agent":"toucan", "do":"FlapWings"}
+          ] 
+        }
+      ]
+    }
+  ],
+ 
+  "directions":
+  [
+    {
+      "trigger":"blueball,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackBlueBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"blueball,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ClosetBlueBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"redball,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackRedBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redball,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ClosetRedBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"hat,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackHat"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"hat,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ClosetHat"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"dirtyshirt,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackDirtyShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"dirtyshirt,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ClosetDirtyShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"cleanshirt,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackCleanShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"cleanshirt,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ClosetCleanShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "tap":  
+  [
+    {
+      "trigger":"blueball",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"OhWow"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"DidYouHearBlueBallSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"redball",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"WhatWasThat"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"DidYouKnowRedBallSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"dirtyshirt",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"OhWow"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"DirtyShirtInSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"cleanshirt",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"DidYouHear"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"CallCleanShirtSpanish"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"hat",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"DidYouHear"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"toucan", "say":"ThatWasHatSpanish"}
+           ]
+        }
+      ]
+    }
+  ],
+
+
+  "timer": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"MoveFinger"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"robot", "say":"TouchPicture"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"LAUGH"},
+            {"agent":"robot", "say":"TouchGently"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        }
+      ]
+    }
+  ],
+
+  "correct": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Great"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Awesome"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"GoodJob"}
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Right"}
+          ]
+        }
+      ]
+    }
+  ],
+ 
+  "wrong":
+  [
+    {
+      "trigger":"blueball",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"IThinkBlueBall"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"blueball"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    
+    {
+      "trigger":"redball",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"IThinkRedBall"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"redball"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+   
+   { 
+      "trigger":"hat",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"IThinkHat"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"hat"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    
+    {
+      "trigger":"dirtyshirt",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"IThinkDirtyShirt"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"dirtyshirt"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    },
+    
+    {
+      "trigger":"cleanshirt",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"IThinkCleanShirt"}
+          ]
+        },
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"cleanshirt"},
+            {"agent":"robot", "say":"ThisOne"}
+          ]
+        }
+      ]
+    }
+  ],
+
+ 
+  "hint":  
+  [
+    {
+      "trigger":"blueball,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"blueball"},
+            {"agent":"robot", "say":"WantBlueBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"blueball,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"blueball"},
+            {"agent":"robot", "say":"DontWantBlueBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"redball,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"redball"},
+            {"agent":"robot", "say":"WantRedBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redball,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"redball"},
+            {"agent":"robot", "say":"DontWantRedBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"hat,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"hat"},
+            {"agent":"robot", "say":"WantHat"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"hat,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"hat"},
+            {"agent":"robot", "say":"DontWantHat"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"dirtyshirt,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"dirtyshirt"},
+            {"agent":"robot", "say":"WantDirtyShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"dirtyshirt,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"dirtyshirt"},
+            {"agent":"robot", "say":"DontWantDirtyShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"cleanshirt,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"cleanshirt"},
+            {"agent":"robot", "say":"WantCleanShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"cleanshirt,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"cleanshirt"},
+            {"agent":"robot", "say":"DontWantCleanShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    }
+  ],
+
+  "answer":  
+  [
+    {
+      "trigger":"blueball,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackBlueBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"blueball,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ClosetBlueBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"redball,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackRedBall"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redball,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixRedBallCloset"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"hat,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackHat"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"hat,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ClosetHat"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"dirtyshirt,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackDirtyShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"dirtyshirt,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"FixDirtyShirtCloset"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"cleanshirt,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"PackCleanShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"cleanshirt,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "say":"ClosetCleanShirt"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ],
+
+ "closing": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"AllPacked"},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"toucan", "say":"Yay"}
+          ] 
+        }
+      ]
+    }
+  ]
+
+}

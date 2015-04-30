@@ -1,0 +1,10 @@
+{
+"name": "Bananas",
+"word":["bananas"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BananasSpanish",
+"position": [407,-158,-2],
+"scale": [37,37,37],
+"variable":false
+}

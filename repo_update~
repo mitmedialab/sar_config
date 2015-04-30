@@ -1,0 +1,35 @@
+cd sar_data_node
+git fetch --all
+git reset --hard origin/master
+cd ..
+
+cd sar_game_node
+git fetch --all
+git reset --hard origin/master
+cd ..
+
+cd sar_affpolicy_node
+git fetch --all
+git reset --hard origin/master
+cd ..
+
+cd sar_cognition_node
+git fetch --all
+git reset --hard origin/master
+cd ..
+
+cd sar_personalized_content_node
+git fetch --all
+git reset --hard origin/master
+cd ..
+
+cd sar_agents_node
+git fetch --all
+git reset --hard origin/master
+cd ..
+
+cd sar_jar
+git fetch --all
+git reset --hard origin/master
+cd ..
+

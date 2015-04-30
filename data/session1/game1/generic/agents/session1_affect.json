@@ -1,0 +1,153 @@
+{
+  "type": "affect",
+  "affect": 
+  [
+    { 
+      "trigger":"high,positive",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"Trying"},
+            {"agent":"robot", "do":"INTERESTED"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"ThanksWorking"},
+            {"agent":"robot", "lookat":["M","M","C"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"robot", "say":"WooHooWorking"}
+          ] 
+        }
+      ]
+    },
+    { 
+      "trigger":"high,neutral",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"KeepPacking"},
+            {"agent":"robot", "do":"AGREEMENT"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"THINKING"},
+            {"agent":"robot", "say":"DontForget"}
+
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"THINKING"},
+            {"agent":"robot", "say":"Heavy"}
+          ] 
+        }
+      ]
+    },
+
+    { 
+      "trigger":"high,negative",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"FRUSTRATED"},
+            {"agent":"robot", "say":"ThisIsHard"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"robot", "say":"CantDecide"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"WontFit"},
+            {"agent":"robot", "do":"NO"}
+          ] 
+        }
+      ]
+    },
+
+    { 
+      "trigger":"low,positive",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"LAUGH"},
+            {"agent":"robot", "say":"SoMuchFun"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"Excited"},
+            {"agent":"robot", "do":"EXCITED"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"LAUGH"},
+            {"agent":"robot", "say":"LikePlaying"}
+          ] 
+        }
+      ]
+    },
+
+    { 
+      "trigger":"low,neutral",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"THINKING"},
+            {"agent":"robot", "say":"Weather"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"Fly"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"Lunch"}
+          ] 
+        }
+      ]
+    },
+    { 
+      "trigger":"low,negative",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"FRUSTRATED"},
+            {"agent":"robot", "say":"Itchy"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"Hungry"},
+            {"agent":"robot", "do":"SAD"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"YAWN"},
+            {"agent":"robot", "say":"Tired"}
+          ] 
+        }
+      ]
+    }
+  ]
+}

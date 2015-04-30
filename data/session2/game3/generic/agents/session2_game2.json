@@ -1,0 +1,850 @@
+{
+  "type": "spanish",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"BananaToo"},
+            {"agent":"robot", "do":"SAD"},
+            {"agent":"robot", "say":"OneMoreBanana"},
+            {"agent":"toucan", "say":"HelpMonkeyInSpanish"},
+            {"agent":"robot", "say":"HelpUs"}
+          ] 
+        }
+      ]
+    }
+  ],
+ 
+ "directions":
+  [
+    {
+      "trigger":"monkey",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"GetMoreBananasSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"HelpMonkeyOut"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"littlebear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishLittleBear"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"AnimalBanana"}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigbear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishBigBear"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"AskedBanana"}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"littlebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishLittleBird"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"WhoBanana"}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishBigBird"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"HungryBanana"}
+
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"littletiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishLittleTiger"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"AskedBanana"}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigtiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishBigTiger"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"AnimalBanana"}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"littlegiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishLittleGiraffe"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"HungryBanana"}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"biggiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishBigGiraffe"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"ShareBanana"}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bluebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishBlueBird"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"WhoBanana"}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishRedBird"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"AnimalBanana"}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"cleanelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishCleanElephant"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"ShareBanana"}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"dirtyelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BananaToSpanishDirtyElephant"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"AskedBanana"}
+
+          ]
+        }
+      ]
+    }
+  ],
+
+
+   
+ "timer": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"MoveFinger"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"TouchPicture"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"TouchGently"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        }
+      ]
+    }
+  ],
+
+  "correct": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Great"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Awesome"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"GoodJob"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Right"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        }
+      ]
+    }
+  ],
+ 
+  "wrong":
+  [
+    {
+      "trigger":"littlebear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"littlebear"},
+            {"agent":"robot", "say":"HintLittleBear"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigbear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bigbear"},
+            {"agent":"robot", "say":"HintBigBear"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"littlebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"littlebird"},
+            {"agent":"robot", "say":"HintLittleBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bigbird"},
+            {"agent":"robot", "say":"HintBigBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"littletiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"littletiger"},
+            {"agent":"robot", "say":"HintLittleTiger"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigtiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bigtiger"},
+            {"agent":"robot", "say":"HintBigTiger"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"littlegiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"littlegiraffe"},
+            {"agent":"robot", "say":"HintLittleGiraffe"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"biggiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"biggiraffe"},
+            {"agent":"robot", "say":"HintBigGiraffe"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bluebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"bluebird"},
+            {"agent":"robot", "say":"HintBlueBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"redbird"},
+            {"agent":"robot", "say":"HintRedBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"cleanelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"cleanelephant"},
+            {"agent":"robot", "say":"HintCleanElephant"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"dirtyelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"tablet", "highlight":"dirtyelephant"},
+            {"agent":"robot", "say":"HintDirtyElephant"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ], 
+
+  "hint":  
+  [
+    {
+      "trigger":"bigbear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"tablet", "highlight":"bigbear"},
+            {"agent":"toucan", "say":"HintSpanishBigBear"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"littlebear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"tablet", "highlight":"littlebear"},
+            {"agent":"toucan", "say":"HintSpanishLittleBear"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"littlebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"Repeat"},
+            {"agent":"tablet", "highlight":"littlebird"},
+            {"agent":"toucan", "say":"HintSpanishLittleBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"Repeat"},
+            {"agent":"tablet", "highlight":"bigbird"},
+            {"agent":"toucan", "say":"HintSpanishBigBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"littletiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"DontUnderstand"},
+            {"agent":"tablet", "highlight":"littletiger"},
+            {"agent":"toucan", "say":"HintSpanishLittleTiger"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bigtiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"DontUnderstand"},
+            {"agent":"tablet", "highlight":"bigtiger"},
+            {"agent":"toucan", "say":"HintSpanishBigTiger"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"littlegiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"tablet", "highlight":"littlegiraffe"},
+            {"agent":"toucan", "say":"HintSpanishLittleGiraffe"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"biggiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"tablet", "highlight":"biggiraffe"},
+            {"agent":"toucan", "say":"HintSpanishBigGiraffe"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+   {
+      "trigger":"cleanelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"Repeat"},
+            {"agent":"tablet", "highlight":"cleanelephant"},
+            {"agent":"toucan", "say":"HintSpanishCleanElephant"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+   {
+      "trigger":"dirtyelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"Repeat"},
+            {"agent":"tablet", "highlight":"dirtyelephant"},
+            {"agent":"toucan", "say":"HintSpanishDirtyElephant"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bluebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"Repeat"},
+            {"agent":"tablet", "highlight":"bluebird"},
+            {"agent":"toucan", "say":"HintSpanishBlueBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"Repeat"},
+            {"agent":"tablet", "highlight":"redbird"},
+            {"agent":"toucan", "say":"HintSpanishRedBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ],
+
+   "answer":  
+  [
+    {
+      "trigger":"monkey",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"MonkeyOutBananasSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"littlebear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToLittleBear"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bigbear",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToBigBear"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"littlebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToLittleBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"bigbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToBigBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"littletiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToLittleTiger"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"bigtiger",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToBigTiger"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"littlegiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToLittleGiraffe"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"biggiraffe",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToBigGiraffe"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"bluebird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToBlueBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redbird",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToRedBird"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+   {
+      "trigger":"cleanelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToCleanElephant"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+   {
+      "trigger":"dirtyelephant",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"EndSpanishBananaToDirtyElephant"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ]
+}

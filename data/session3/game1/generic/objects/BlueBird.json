@@ -1,0 +1,10 @@
+{
+"name": "BlueBird",
+"word":["bird","blue"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BlueBirdSpanish",
+"position": [-451,136,0],
+"scale": [100,100,100],
+"variable":true
+}

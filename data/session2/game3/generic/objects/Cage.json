@@ -1,0 +1,10 @@
+{
+"name": "Cage",
+"word":["cage"],
+"tag": "PlayObject",
+"draggable": "false",
+"audioFile": "CageSpanish",
+"position": [512,-284,-1],
+"scale": [106,106,106],
+"variable":false
+}

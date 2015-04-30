@@ -1,0 +1,10 @@
+{
+"name": "Apple",
+"word":["apple"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "AppleSpanish",
+"position": [111,-70,0],
+"scale": [72,72,72],
+"variable":true
+}

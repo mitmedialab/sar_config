@@ -1,0 +1,27 @@
+{
+  "type":"introduction",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"HiAgain"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"toucan", "say":"RememberMeToucan"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"SpainEspana"},
+            {"agent":"robot", "do":"YES"},
+            {"agent":"robot", "say":"LetsPlay"},
+            {"agent":"robot", "do":"AGREEMENT"}
+          ] 
+        }
+      ]
+    } 
+  ]
+}

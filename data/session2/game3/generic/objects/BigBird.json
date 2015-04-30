@@ -1,0 +1,10 @@
+{
+"name": "BigBird",
+"word":["bird","big"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BigBirdSpanish",
+"position": [-53,-305,0],
+"scale": [68,68,68],
+"variable":true
+}

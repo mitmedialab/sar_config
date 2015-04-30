@@ -1,0 +1,10 @@
+{
+"name": "Closet",
+"tag": "PlayObject",
+"draggable": "false",
+"audioFile": "ClosetSpanish",
+"position": [-454,179,1],
+"scale": [100,100,100],
+"variable":false,
+"word": ["closet"]
+}

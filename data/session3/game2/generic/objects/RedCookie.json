@@ -1,0 +1,10 @@
+{
+"name": "RedCookie",
+"word":["red,cookie"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "RedCookieSpanish",
+"position": [175,-146,0],
+"scale": [60,60,60],
+"variable":true
+}

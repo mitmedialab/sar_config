@@ -1,0 +1,10 @@
+{
+"name": "LittleBird",
+"word":["little","bird"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "LittleBirdSpanish",
+"position": [-146,-166,0],
+"scale": [37,37,37],
+"variable":true
+}

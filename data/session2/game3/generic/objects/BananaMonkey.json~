@@ -1,0 +1,10 @@
+{
+"name": "BananaMonkey",
+"word":["monkey"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "MonkeySpanish",
+"position": [492,-328,-1],
+"scale": [80,80,80],
+"variable":true
+}

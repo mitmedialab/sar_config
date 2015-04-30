@@ -1,0 +1,10 @@
+{
+"name": "Hat",
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "HatSpanish",
+"position": [57,-50,0],
+"scale": [61,61,61],
+"variable":true,
+"word":["hat"]
+}

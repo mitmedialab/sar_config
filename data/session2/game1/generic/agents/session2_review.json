@@ -1,0 +1,256 @@
+{
+  "type": "review",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"LastTimePack"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"RememberPacked"},
+            {"agent":"toucan", "do":"FlapWings"}
+          ] 
+        }
+      ]
+    }
+  ],
+ 
+  "directions":
+  [
+    {
+      "trigger":"blueball,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewBlueBall"},
+            {"agent":"robot", "say":"ThingWants"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"blueball,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewBlueBallCloset"},
+            {"agent":"robot", "say":"NotBring"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"redball,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewRedBall"},
+            {"agent":"robot", "say":"ThingWants"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"redball,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewRedBallCloset"},
+            {"agent":"robot", "say":"NotBring"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+   { 
+      "trigger":"hat,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewHat"},
+            {"agent":"robot", "say":"ThingWants"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"hat,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewHatCloset"},
+            {"agent":"robot", "say":"NotBring"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"dirtyshirt,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewDirtyShirt"},
+            {"agent":"robot", "say":"ThingWants"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"dirtyshirt,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewDirtyShirtCloset"},
+            {"agent":"robot", "say":"NotBring"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+
+    {
+      "trigger":"cleanshirt,suitcase",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewCleanShirt"},
+            {"agent":"robot", "say":"ThingWants"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"cleanshirt,closet",
+      "options": 
+      [
+        { "sequence":
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"ReviewCleanShirtCloset"},
+            {"agent":"robot", "say":"NotBring"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "timer": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"TouchPicture"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "say":"TouchGently"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+          ] 
+        }
+      ]
+    }
+  ],
+
+  "correct": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Great"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Awesome"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"GoodJob"},
+            {"agent":"robot", "do":"YES"} 
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Right"},
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        }
+      ]
+    }
+  ],
+ 
+ "closing": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"AwesomeSet"},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"toucan", "do":"FlapWings"}
+          ] 
+        }
+      ]
+    }
+  ]
+
+}

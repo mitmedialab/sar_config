@@ -1,0 +1,28 @@
+{
+  "type": "closing",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"GreatPicnic"},
+            {"agent":"robot", "do":"YES"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"PicnicsAreFavorite"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"NextTimePlay"},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"toucan", "say":"AdiosSeeYouNext"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "say":"SeeYou"},
+            {"agent":"robot", "do":"AGREEMENT"}
+          ] 
+        }
+      ]
+    }
+  ]
+}

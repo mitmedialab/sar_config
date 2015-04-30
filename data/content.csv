@@ -1,0 +1,66 @@
+azul,2,color,blue
+roja,3,color,red
+pelota,2,item,ball
+limpia,2,adjective,clean
+sucia,2,adjective,dirty
+blusa,1,item,shirt
+sombrero,2,item,hat
+armario,3,furniture,closet
+maleta,2,furniture,suitcase
+pequeno,3,adjective,little
+grande,1,adjective,big
+mono,1,animal,monkey
+bananas,1,food,bananas
+oso,1,animal,bear
+pajaro,3,animal,bird
+tigre,1,animal,tiger
+jirafa,2,animal,giraffe
+jaula,3,item,cage
+elefante,1,animal,elephant
+mesa,1,furniture,table
+canasta de picnic,2,furniture,picnic basket
+leche,2,food,milk
+bebida,2,food,drink
+fresa,2,food,strawberry
+pollo,3,food,chicken
+sopa,1,food,soup
+pescado,3,food,fish
+pan,1,food,bread
+manzana,2,food,apple
+taza,1,item,cup
+galleta,3,food,cookie
+arbol,2,item,tree
+verde,2,color,green
+amarilla,3,color,yellow
+rosa,1,color,pink
+mariposa,3,animal,butterfly
+oruga,2,animal,caterpillar
+ardilla,3,animal,squirrel
+pato,1,animal,duck
+flor,1,item,flower
+gato,1,animal,cat
+perro,2,animal,dog
+cama,1,furniture,bed
+ventana,2,furniture,window
+lampara,2,furniture,lamp
+sofa,1,furniture,couch
+caja,2,item,box
+silla,3,furniture,chair
+bano,1,furniture,tub
+lavamanos,3,furniture,sink
+cesto de ropa,2,furniture,laundry basket
+jabon,2,item,soap
+champu,1,item,shampoo
+toalla,3,item,towel
+pierna,2,body part,leg
+cara,1,body part,face
+oreja,3,body part,ear
+cabeza,2,body part,head
+calo,1,body part,tail
+globos,1,item,balloons
+torta,1,food,cake
+magdalena,3,food,cupcake
+regalo,2,item,present
+feliz,2,emotion,happy
+triste,2,emotion,sad
+amigos,2,item,friends

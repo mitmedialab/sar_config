@@ -1,0 +1,10 @@
+{
+"name": "CleanShirt",
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "CleanShirtSpanish",
+"position": [-35,145,0],
+"scale": [100,100,100],
+"variable":true,
+"word":["clean","shirt"]
+}

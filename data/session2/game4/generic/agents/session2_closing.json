@@ -1,0 +1,28 @@
+{
+  "type": "closing",
+  "closing": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"DidYou"},
+            {"agent":"robot", "do":"YES"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"HadFunAtZoo"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"NextTimePicnic"},
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"toucan", "say":"AdiosSeeYouNext"},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "say":"SeeYou"},
+            {"agent":"robot", "do":"AGREEMENT"}
+          ] 
+        }
+      ]
+    }
+  ]
+}

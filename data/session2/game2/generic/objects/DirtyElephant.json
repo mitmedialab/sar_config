@@ -1,0 +1,10 @@
+{
+"name": "DirtyElephant",
+"word":["dirty","elephant"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "DirtyElephantSpanish",
+"position": [-17,176,0],
+"scale": [77,77,77],
+"variable":true
+}

@@ -1,0 +1,10 @@
+{
+"name": "LittleBear",
+"word":["little","bear"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "LittleBearSpanish",
+"position": [297,322,0],
+"scale": [65,65,65],
+"variable":true
+}

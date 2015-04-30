@@ -1,0 +1,10 @@
+{
+"name": "BlueCookie",
+"word":["blue,cookie"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BlueCookieSpanish",
+"position": [53,-193,0],
+"scale": [60,60,60],
+"variable":true
+}

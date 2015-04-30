@@ -1,0 +1,10 @@
+{
+"name": "BlueCup",
+"word":["blue,cup"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BlueCupSpanish",
+"position": [-58,-115,0],
+"scale": [55,55,55],
+"variable":true
+}

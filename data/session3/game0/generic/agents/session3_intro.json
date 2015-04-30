@@ -1,0 +1,35 @@
+{
+  "type":"introduction",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"robot", "say":"OohHi"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"AGREEMENT"},
+            {"agent":"toucan", "say":"HiAgain"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"FunClass"},
+            {"agent":"robot", "do":"YES"},
+            {"agent":"robot", "say":"FavAnimal"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"ImABirdFavorite"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"LAUGH"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "say":"SoSilly"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"LetsPlay"},
+            {"agent":"robot", "do":"EXCITED"}
+          ] 
+        }
+      ]
+    } 
+  ]
+}

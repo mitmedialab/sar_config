@@ -1,0 +1,10 @@
+{
+"name": "BigGiraffe",
+"word":["big","giraffe"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "BigGiraffeSpanish",
+"position": [468,162,0],
+"scale": [77,77,77],
+"variable":true
+}

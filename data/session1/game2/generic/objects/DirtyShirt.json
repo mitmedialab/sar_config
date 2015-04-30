@@ -1,0 +1,10 @@
+{
+"name": "DirtyShirt",
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "DirtyShirtSpanish",
+"position": [-87,-220,0],
+"scale": [100,100,100],
+"variable":true,
+"word": ["dirty","shirt"]
+}

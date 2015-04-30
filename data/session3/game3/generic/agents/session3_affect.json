@@ -1,0 +1,155 @@
+{
+  "type": "affect",
+  "affect": 
+  [
+    { 
+      "trigger":"high,positive",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"Trying"},
+            {"agent":"robot", "do":"INTERESTED"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"EXCITED"},
+            {"agent":"robot", "say":"HelpingSetUp"},
+            {"agent":"robot", "lookat":["M","M","C"]}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"PicnicReady"},
+            {"agent":"robot", "do":"INTERESTED"}
+          ] 
+        }
+      ]
+    },
+    { 
+      "trigger":"high,neutral",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"KeepGoing"},
+            {"agent":"robot", "do":"AGREEMENT"}
+
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"THINKING"},
+            {"agent":"robot", "say":"NicePicnic"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"THINKING"},
+            {"agent":"robot", "say":"LooksTasty"}
+          ] 
+        }
+      ]
+    },
+
+    { 
+      "trigger":"high,negative",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"TryingToSetUp"},
+            {"agent":"robot", "do":"FRUSTRATED"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"robot", "say":"EnoughFood"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"FRUSTRATED"},
+            {"agent":"robot", "say":"EatEverything"}
+          ] 
+        }
+      ]
+    },
+
+    { 
+      "trigger":"low,positive",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"LAUGH"},
+            {"agent":"robot", "say":"SoMuchFun"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"ExcitedAboutPark"},
+            {"agent":"robot", "do":"EXCITED"}
+
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"LikePlaying"},
+            {"agent":"robot", "do":"LAUGH"}
+          ] 
+        }
+      ]
+    },
+
+    { 
+      "trigger":"low,neutral",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"Weather"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"THINKING"},
+            {"agent":"robot", "say":"Fly"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"ElseInPark"}
+          ] 
+        }
+      ]
+    },
+    { 
+      "trigger":"low,negative",
+      "options":
+      [
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"FRUSTRATED"},
+            {"agent":"robot", "say":"Itchy"}
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "say":"Hungry"},
+            {"agent":"robot", "do":"SAD"}
+
+          ] 
+        },
+        { "sequence": 
+          [
+            {"agent":"robot", "do":"YAWN"},
+            {"agent":"robot", "say":"Tired"}
+          ] 
+        }
+      ]
+    }
+  ]
+}

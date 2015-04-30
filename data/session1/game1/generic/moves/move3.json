@@ -1,0 +1,7 @@
+{
+"sequence": "3",
+"name": "CleanShirt",
+"type": "moveTo",
+"correct": "Suitcase",
+"wrong": "Closet"
+}

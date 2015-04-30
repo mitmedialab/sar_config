@@ -1,0 +1,10 @@
+{
+"name": "LittleGiraffe",
+"word":["little","giraffe"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "LittleGiraffeSpanish",
+"position": [309,86,0],
+"scale": [46,46,46],
+"variable":true
+}
