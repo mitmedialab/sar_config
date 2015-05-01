@@ -1,0 +1,10 @@
+{
+"name": "dragon",
+"tag": "PlayObject",
+"draggable": "false",
+"audioFile": "chimes",
+"position": [0,0,0], 
+"scale": [100,100,100],
+"word": ["dragon"]
+"variable": "false"
+}

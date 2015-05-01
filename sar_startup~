@@ -1,8 +1,10 @@
-# change the ifconfig to hard-coded one
-sudo ifconfig eth2 192.168.1.25
+export et="$(ifconfig | grep eth | cut -d' ' -f1)"
 
-# ensures the ROS_IP reflects this new
-export ROS_IP="$(/sbin/ifconfig eth2 | grep 'inet addr:' | cut -d: -f2 | awk '{print $1}')"
+sudo ifconfig $et 192.168.1.25
+
+export ROS_IP="$(/sbin/ifconfig eth | grep 'inet addr:' | cut -d: -f2 | awk '{print $1}')"
+
+source /opt/ros/hydro/setup.bash
 
 # start roscore
 roscore &

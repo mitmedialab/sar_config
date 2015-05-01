@@ -1,0 +1,9 @@
+rosnode kill timer_node
+rosnode kill /sar/affpolicy_node
+rosnode kill /sar/agents_node
+rosnode kill /sar/data_node
+rosnode kill /sar/personalized_content
+rosnode kill /sar/cognition_node
+rosnode kill /sar/game_node
+rosnode cleanup
+

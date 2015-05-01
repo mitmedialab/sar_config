@@ -14,3 +14,5 @@ sleep 0.5
 java -jar sar_personalized_content_node.jar &
 sleep 0.5
 java -jar sar_cognition_node.jar $1 $2 $3 $4 &
+
+rosbag record -a -O "bags/subject$2_session$3" &

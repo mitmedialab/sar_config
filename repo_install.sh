@@ -27,7 +27,7 @@ git clone git+ssh://git@github.com/personal-robots/r1d1_msgs
 git clone git+ssh://git@github.com/personal-robots/sar_policy_msgs
 git clone git+ssh://git@github.com/personal-robots/sar_opal_msgs
 git clone git+ssh://git@github.com/personal-robots/affdex_sensing
-catkin_make
+catkin_make --force-cmake
 
 # get eclipse
 sudo apt-get install eclipse

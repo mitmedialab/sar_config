@@ -1,0 +1,10 @@
+{
+"name": "bird1",
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "wakeup",
+"position": [200,350,0],
+"scale": [100,100,100],
+"word": ["bird"]
+"variable": "true"
+}
