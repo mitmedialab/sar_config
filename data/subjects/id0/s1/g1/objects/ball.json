@@ -1,0 +1,10 @@
+{
+"name": "ball",
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "chimes",
+"position": [0,40,0],
+"scale": [100,100,100],
+"word": ["ball"]
+"variable": "true"
+}

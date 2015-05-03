@@ -1,0 +1,66 @@
+azul,2,color,blue,0.7500000000000002
+roja,3,color,red,0.6000000000000001
+pelota,2,item,ball,0.8500000000000003
+limpia,2,adjective,clean,0.5
+sucia,2,adjective,dirty,0.6000000000000001
+blusa,1,item,shirt,0.6000000000000001
+sombrero,2,item,hat,0.5
+armario,3,furniture,closet,0.5
+maleta,2,furniture,suitcase,0.5
+pequeno,3,adjective,little,0.5
+grande,1,adjective,big,0.5
+mono,1,animal,monkey,0.5
+bananas,1,food,bananas,0.5
+oso,1,animal,bear,0.5
+pajaro,3,animal,bird,0.5
+tigre,1,animal,tiger,0.5
+jirafa,2,animal,giraffe,0.5
+jaula,3,item,cage,0.5
+elefante,1,animal,elephant,0.5
+mesa,1,furniture,table,0.5
+canasta de picnic,2,furniture,picnic basket,0.5
+leche,2,food,milk,0.5
+bebida,2,food,drink,0.5
+fresa,2,food,strawberry,0.5
+pollo,3,food,chicken,0.5
+sopa,1,food,soup,0.5
+pescado,3,food,fish,0.5
+pan,1,food,bread,0.5
+manzana,2,food,apple,0.5
+taza,1,item,cup,0.5
+galleta,3,food,cookie,0.5
+arbol,2,item,tree,0.5
+verde,2,color,green,0.5
+amarilla,3,color,yellow,0.5
+rosa,1,color,pink,0.5
+mariposa,3,animal,butterfly,0.5
+oruga,2,animal,caterpillar,0.5
+ardilla,3,animal,squirrel,0.5
+pato,1,animal,duck,0.5
+flor,1,item,flower,0.5
+gato,1,animal,cat,0.5
+perro,2,animal,dog,0.5
+cama,1,furniture,bed,0.5
+ventana,2,furniture,window,0.5
+lampara,2,furniture,lamp,0.5
+sofa,1,furniture,couch,0.5
+caja,2,item,box,0.5
+silla,3,furniture,chair,0.5
+bano,1,furniture,tub,0.5
+lavamanos,3,furniture,sink,0.5
+cesto de ropa,2,furniture,laundry basket,0.5
+jabon,2,item,soap,0.5
+champu,1,item,shampoo,0.5
+toalla,3,item,towel,0.5
+pierna,2,body part,leg,0.5
+cara,1,body part,face,0.5
+oreja,3,body part,ear,0.5
+cabeza,2,body part,head,0.5
+calo,1,body part,tail,0.5
+globos,1,item,balloons,0.5
+torta,1,food,cake,0.5
+magdalena,3,food,cupcake,0.5
+regalo,2,item,present,0.5
+feliz,2,emotion,happy,0.5
+triste,2,emotion,sad,0.5
+amigos,2,item,friends,0.5
