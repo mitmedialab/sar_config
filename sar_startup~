@@ -1,10 +1,8 @@
-# change the ifconfig to hard-coded one
-# if doesn't work, check whether its eth0, eth1, eth2
-sudo ifconfig eth2 192.168.1.25
+<<<<<<< HEAD
+source ~/catkin_ws/devel/setup.bash
 
-# ensures the ROS_IP reflects this new
-export ROS_IP="$(/sbin/ifconfig eth2 | grep 'inet addr:' | cut -d: -f2 | awk '{print $1}')"
-
+=======
+>>>>>>> 566b3a2397a239d1cfad3c5a3d9a155565eccba0
 # start roscore
 roscore &
 sleep 2

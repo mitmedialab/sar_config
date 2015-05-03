@@ -1,66 +1,66 @@
-azul,2,color,blue,0.5
-roja,3,color,red,0.5
-pelota,2,item,ball,0.5
-limpia,2,adjective,clean,0.5
-sucia,2,adjective,dirty,0.5
-blusa,1,item,shirt,0.5
-sombrero,2,item,hat,0.5
-armario,3,furniture,closet,0.5
-maleta,2,furniture,suitcase,0.5
-pequeno,3,adjective,little,0.5
-grande,1,adjective,big,0.5
-mono,1,animal,monkey,0.5
-bananas,1,food,bananas,0.5
-oso,1,animal,bear,0.5
-pajaro,3,animal,bird,0.5
-tigre,1,animal,tiger,0.5
-jirafa,2,animal,giraffe,0.5
-jaula,3,item,cage,0.5
-elefante,1,animal,elephant,0.5
-mesa,1,furniture,table,0.5
-canasta de picnic,2,furniture,picnic basket,0.5
-leche,2,food,milk,0.5
-bebida,2,food,drink,0.5
-fresa,2,food,strawberry,0.5
-pollo,3,food,chicken,0.5
-sopa,1,food,soup,0.5
-pescado,3,food,fish,0.5
-pan,1,food,bread,0.5
-manzana,2,food,apple,0.5
-taza,1,item,cup,0.5
-galleta,3,food,cookie,0.5
-arbol,2,item,tree,0.5
-verde,2,color,green,0.5
-amarilla,3,color,yellow,0.5
-rosa,1,color,pink,0.5
-mariposa,3,animal,butterfly,0.5
-oruga,2,animal,caterpillar,0.5
-ardilla,3,animal,squirrel,0.5
-pato,1,animal,duck,0.5
-flor,1,item,flower,0.5
-gato,1,animal,cat,0.5
-perro,2,animal,dog,0.5
-cama,1,furniture,bed,0.5
-ventana,2,furniture,window,0.5
-lampara,2,furniture,lamp,0.5
-sofa,1,furniture,couch,0.5
-caja,2,item,box,0.5
-silla,3,furniture,chair,0.5
-bano,1,furniture,tub,0.5
-lavamanos,3,furniture,sink,0.5
-cesto de ropa,2,furniture,laundry basket,0.5
-jabon,2,item,soap,0.5
-champu,1,item,shampoo,0.5
-toalla,3,item,towel,0.5
-pierna,2,body part,leg,0.5
-cara,1,body part,face,0.5
-oreja,3,body part,ear,0.5
-cabeza,2,body part,head,0.5
-calo,1,body part,tail,0.5
-globos,1,item,balloons,0.5
-torta,1,food,cake,0.5
-magdalena,3,food,cupcake,0.5
-regalo,2,item,present,0.5
-feliz,2,emotion,happy,0.5
-triste,2,emotion,sad,0.5
-amigos,2,item,friends,0.5
+azul,2,color,blue,0.95
+roja,3,color,red,0.95
+pelota,2,item,ball,0.95
+limpia,2,adjective,clean,0.7665009913689317
+sucia,2,adjective,dirty,0.866595553171952
+blusa,1,item,shirt,0.95
+sombrero,2,item,hat,0.93602216994298
+armario,3,furniture,closet,0.25096793993324107
+maleta,2,furniture,suitcase,0.5001365935322603
+pequeno,3,adjective,little,0.7666046998780779
+grande,1,adjective,big,0.6564087242306545
+mono,1,animal,monkey,0.6564087242306544
+bananas,1,food,bananas,0.6564087242306544
+oso,1,animal,bear,0.4701252394248919
+pajaro,3,animal,bird,0.8364918915107933
+tigre,1,animal,tiger,0.4701252394248919
+jirafa,2,animal,giraffe,0.6033123419447612
+jaula,3,item,cage,0.8999850717565907
+elefante,1,animal,elephant,0.8044437926082784
+mesa,1,furniture,table,0.4744224096940907
+canasta de picnic,2,furniture,picnic basket,0.4998579953951211
+leche,2,food,milk,0.5034551247568998
+bebida,2,food,drink,0.6033123419447612
+fresa,2,food,strawberry,0.4033215102595552
+pollo,3,food,chicken,0.7666046998780778
+sopa,1,food,soup,0.4701252394248919
+pescado,3,food,fish,0.7666046998780778
+pan,1,food,bread,0.6564087242306544
+manzana,2,food,apple,0.4086218552919584
+taza,1,item,cup,0.9072186996969359
+galleta,3,food,cookie,0.47542609024127863
+arbol,2,item,tree,0.5383203710365286
+verde,2,color,green,0.676303438039019
+amarilla,3,color,yellow,0.464187596291368
+rosa,1,color,pink,0.9317082454031618
+mariposa,3,animal,butterfly,0.4860363824230919
+oruga,2,animal,caterpillar,0.6033123419447612
+ardilla,3,animal,squirrel,0.29824561403508776
+pato,1,animal,duck,0.6564087242306544
+flor,1,item,flower,0.9095632876170701
+gato,1,animal,cat,0.6564087242306544
+perro,2,animal,dog,0.8138207534312271
+cama,1,furniture,bed,0.2806827699091177
+ventana,2,furniture,window,0.5998636678353981
+lampara,2,furniture,lamp,0.16708511434816795
+sofa,1,furniture,couch,0.2953849617153446
+caja,2,item,box,0.9136229340058925
+silla,3,furniture,chair,0.26530612244897955
+bano,1,furniture,tub,0.4744224096940906
+lavamanos,3,furniture,sink,0.25096793993324107
+cesto de ropa,2,furniture,laundry basket,0.5874294923448833
+jabon,2,item,soap,0.9136229340058925
+champu,1,item,shampoo,0.6564087242306544
+toalla,3,item,towel,0.7851420647543276
+pierna,2,body part,leg,0.3106441647305129
+cara,1,body part,face,0.49835110188271026
+oreja,3,body part,ear,0.6360291042903736
+cabeza,2,body part,head,0.6033123419447612
+calo,1,body part,tail,0.8044437926082784
+globos,1,item,balloons,0.9095632876170701
+torta,1,food,cake,0.8044437926082784
+magdalena,3,food,cupcake,0.25096793993324107
+regalo,2,item,present,0.7681009242581245
+feliz,2,emotion,happy,0.7738563846702896
+triste,2,emotion,sad,0.508948950696656
+amigos,2,item,friends,0.6952439001161883

@@ -27,7 +27,7 @@ git clone git+ssh://git@github.com/personal-robots/r1d1_msgs
 git clone git+ssh://git@github.com/personal-robots/sar_policy_msgs
 git clone git+ssh://git@github.com/personal-robots/sar_opal_msgs
 git clone git+ssh://git@github.com/personal-robots/affdex_sensing
-catkin_make
+catkin_make --force-cmake
 
 # get eclipse
 sudo apt-get install eclipse
@@ -43,10 +43,7 @@ git clone git+ssh://git@github.com/personal-robots/sar_data_node
 git clone git+ssh://git@github.com/personal-robots/sar_personalized_content_node
 git clone git+ssh://git@github.com/personal-robots/sar_cognition_node
 git clone git+ssh://git@github.com/personal-robots/timer_node
-
-# organize the sar project
-mkdir -p ~/projects/sar/
-cd ~/projects/sar
+git clone git+ssh://git@github.com/personal-robots/sar_jar
 
 
 

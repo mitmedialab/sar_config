@@ -1,10 +1,10 @@
-azul,2,color,blue,0.6500000000000001
-roja,3,color,red,0.7000000000000002
+azul,2,color,blue,0.7000000000000002
+roja,3,color,red,0.6500000000000001
 pelota,2,item,ball,0.8500000000000003
-limpia,2,adjective,clean,0.55
+limpia,2,adjective,clean,0.7500000000000002
 sucia,2,adjective,dirty,0.6000000000000001
-blusa,1,item,shirt,0.6500000000000001
-sombrero,2,item,hat,0.55
+blusa,1,item,shirt,0.8500000000000003
+sombrero,2,item,hat,0.6500000000000001
 armario,3,furniture,closet,0.5
 maleta,2,furniture,suitcase,0.5
 pequeno,3,adjective,little,0.5

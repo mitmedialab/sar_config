@@ -1,0 +1,42 @@
+{
+  "type": "anomalous",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+          ]
+         }
+      ]
+     }
+   ],
+   
+  "directions":
+  [
+    {
+      "trigger":"silence",
+      "options": 
+      [
+        { "sequence":
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "trigger":"thatissilly",
+      "options": 
+      [
+        { "sequence":
+          [
+          ]
+        }
+      ]
+    }
+
+  ]
+}
+

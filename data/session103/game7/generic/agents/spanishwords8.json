@@ -1,0 +1,34 @@
+{
+  "type": "words",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"toucan", "say":"silence"}
+          ]
+         }
+      ]
+     }
+   ],
+  
+  "directions":
+  [
+    {
+      "trigger":"butterfly",
+      "options": 
+      [
+        { "sequence":
+          [
+	    {"agent":"toucan", "say":"LittleAssessment"}
+
+          ]
+        }
+      ]
+    }
+  ]
+}
+

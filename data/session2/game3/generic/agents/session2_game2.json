@@ -9,10 +9,21 @@
          { "sequence": 
           [
             {"agent":"robot", "say":"BananaToo"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"SAD"},
             {"agent":"robot", "say":"OneMoreBanana"},
+            {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"toucan", "say":"HelpMonkeyInSpanish"},
-            {"agent":"robot", "say":"HelpUs"}
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"HelpUs"},
+            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"MonkeyInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"YES"},
+            {"agent":"toucan", "say":"CageInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"YES"}
+
           ] 
         }
       ]
@@ -29,6 +40,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"GetMoreBananasSpanish"},
+            {"agent":"toucan", "say":"MonkeySpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"HelpMonkeyOut"}
           ]
@@ -43,6 +55,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishLittleBear"},
+            {"agent":"toucan", "say":"LittleBearSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"AnimalBanana"}
           ]
@@ -57,6 +70,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishBigBear"},
+            {"agent":"toucan", "say":"BigBearSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"AskedBanana"}
 
@@ -73,6 +87,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishLittleBird"},
+            {"agent":"toucan", "say":"LittleBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"WhoBanana"}
 
@@ -88,6 +103,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishBigBird"},
+            {"agent":"toucan", "say":"BigBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"HungryBanana"}
 
@@ -104,6 +120,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishLittleTiger"},
+            {"agent":"toucan", "say":"LittleTigerSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"AskedBanana"}
 
@@ -119,6 +136,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishBigTiger"},
+            {"agent":"toucan", "say":"BigTigerSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"AnimalBanana"}
 
@@ -135,6 +153,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishLittleGiraffe"},
+            {"agent":"toucan", "say":"LittleGiraffeSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"HungryBanana"}
 
@@ -150,6 +169,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishBigGiraffe"},
+            {"agent":"toucan", "say":"BigGiraffeSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"ShareBanana"}
 
@@ -166,6 +186,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishBlueBird"},
+            {"agent":"toucan", "say":"BlueBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"WhoBanana"}
 
@@ -181,6 +202,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishRedBird"},
+            {"agent":"toucan", "say":"RedBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"AnimalBanana"}
 
@@ -196,6 +218,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishCleanElephant"},
+            {"agent":"toucan", "say":"CleanElephantSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"ShareBanana"}
 
@@ -211,6 +234,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"BananaToSpanishDirtyElephant"},
+            {"agent":"toucan", "say":"DirtyElephantSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"AskedBanana"}
 
@@ -231,7 +255,6 @@
         { "sequence": 
           [
             {"agent":"robot", "lookat":["M","S","C"]},
-            {"agent":"robot", "do":"INTERESTED"},
             {"agent":"robot", "say":"MoveFinger"},
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -240,7 +263,6 @@
         { "sequence": 
           [
             {"agent":"robot", "lookat":["M","S","C"]},
-            {"agent":"robot", "do":"INTERESTED"},
             {"agent":"robot", "say":"TouchPicture"},
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -249,7 +271,6 @@
         { "sequence": 
           [
             {"agent":"robot", "lookat":["M","S","C"]},
-            {"agent":"robot", "do":"INTERESTED"},
             {"agent":"robot", "say":"TouchGently"},
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -259,7 +280,7 @@
     }
   ],
 
-  "correct": 
+ "correct": 
   [
     { 
       "trigger":"",
@@ -277,16 +298,29 @@
           [
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"robot", "say":"Awesome"},
-            {"agent":"robot", "do":"AGREEMENT"} 
+            {"agent":"robot", "do":"YES"} 
           ]
         },
         { "sequence": 
           [
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"robot", "say":"GoodJob"},
-            {"agent":"robot", "do":"YES"} 
+            {"agent":"robot", "do":"AGREEMENT"} 
+          ]
+        },
+
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"Awesome"}
+          ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"GoodJob"}
           ]
         },
         { "sequence": 
@@ -300,7 +334,7 @@
       ]
     }
   ],
- 
+
   "wrong":
   [
     {
@@ -312,6 +346,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"littlebear"},
             {"agent":"robot", "say":"HintLittleBear"},
+            {"agent":"toucan", "say":"LittleBearSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -326,6 +361,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"bigbear"},
             {"agent":"robot", "say":"HintBigBear"},
+            {"agent":"toucan", "say":"BigBearSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -341,6 +377,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"littlebird"},
             {"agent":"robot", "say":"HintLittleBird"},
+            {"agent":"toucan", "say":"LittleBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -355,6 +392,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"bigbird"},
             {"agent":"robot", "say":"HintBigBird"},
+            {"agent":"toucan", "say":"BigBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
 
           ]
@@ -371,6 +409,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"littletiger"},
             {"agent":"robot", "say":"HintLittleTiger"},
+            {"agent":"toucan", "say":"LittleTigerSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
 
           ]
@@ -386,6 +425,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"bigtiger"},
             {"agent":"robot", "say":"HintBigTiger"},
+            {"agent":"toucan", "say":"BigTigerSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
 
           ]
@@ -402,6 +442,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"littlegiraffe"},
             {"agent":"robot", "say":"HintLittleGiraffe"},
+            {"agent":"toucan", "say":"LittleGiraffeSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
 
           ]
@@ -417,6 +458,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"biggiraffe"},
             {"agent":"robot", "say":"HintBigGiraffe"},
+            {"agent":"toucan", "say":"BigGiraffeSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
 
           ]
@@ -433,6 +475,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"bluebird"},
             {"agent":"robot", "say":"HintBlueBird"},
+            {"agent":"toucan", "say":"BlueBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
 
           ]
@@ -448,6 +491,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"redbird"},
             {"agent":"robot", "say":"HintRedBird"},
+            {"agent":"toucan", "say":"RedBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -462,6 +506,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"cleanelephant"},
             {"agent":"robot", "say":"HintCleanElephant"},
+            {"agent":"toucan", "say":"CleanElephantSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -476,6 +521,7 @@
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"tablet", "highlight":"dirtyelephant"},
             {"agent":"robot", "say":"HintDirtyElephant"},
+            {"agent":"toucan", "say":"DirtyElephantSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -491,8 +537,9 @@
       [
         { "sequence":
           [
-            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"tablet", "highlight":"bigbear"},
             {"agent":"toucan", "say":"HintSpanishBigBear"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -506,8 +553,9 @@
       [
         { "sequence":
           [
-            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"tablet", "highlight":"littlebear"},
             {"agent":"toucan", "say":"HintSpanishLittleBear"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -584,8 +632,9 @@
       [
         { "sequence":
           [
-            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"tablet", "highlight":"littlegiraffe"},
             {"agent":"toucan", "say":"HintSpanishLittleGiraffe"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -599,8 +648,9 @@
       [
         { "sequence":
           [
-            {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"PUZZLED"},
+            {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"tablet", "highlight":"biggiraffe"},
             {"agent":"toucan", "say":"HintSpanishBigGiraffe"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -681,6 +731,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"MonkeyOutBananasSpanish"},
+            {"agent":"toucan", "say":"MonkeySpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -694,6 +745,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToLittleBear"},
+            {"agent":"toucan", "say":"LittleBearSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -708,6 +760,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToBigBear"},
+            {"agent":"toucan", "say":"BigBearSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -721,6 +774,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToLittleBird"},
+            {"agent":"toucan", "say":"LittleBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -735,6 +789,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToBigBird"},
+            {"agent":"toucan", "say":"BigBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -748,6 +803,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToLittleTiger"},
+            {"agent":"toucan", "say":"LittleTigerSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -762,6 +818,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToBigTiger"},
+            {"agent":"toucan", "say":"BigTigerSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -775,6 +832,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToLittleGiraffe"},
+            {"agent":"toucan", "say":"LittleGiraffeSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -789,6 +847,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToBigGiraffe"},
+            {"agent":"toucan", "say":"BigGiraffeSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -802,6 +861,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToBlueBird"},
+            {"agent":"toucan", "say":"BlueBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -815,6 +875,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToRedBird"},
+            {"agent":"toucan", "say":"RedBirdSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -828,6 +889,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToCleanElephant"},
+            {"agent":"toucan", "say":"CleanElephantSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }
@@ -841,6 +903,7 @@
           [
             {"agent":"robot", "lookat":["M","S","C"]},
             {"agent":"toucan", "say":"EndSpanishBananaToDirtyElephant"},
+            {"agent":"toucan", "say":"DirtyElephantSpanishT"},
             {"agent":"robot", "lookat":["M","M","M"]}
           ]
         }

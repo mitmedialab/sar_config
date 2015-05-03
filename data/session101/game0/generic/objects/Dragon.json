@@ -1,0 +1,10 @@
+{
+"name": "dragon",
+"word":["dragon"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "",
+"position": [272,233,-5],
+"scale": [260,260,260],
+"variable":false
+}

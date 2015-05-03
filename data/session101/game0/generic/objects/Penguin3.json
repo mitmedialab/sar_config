@@ -1,0 +1,10 @@
+{
+"name": "Penguin3",
+"word":["penguin"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "",
+"position": [-83,294,-5],
+"scale": [71,71,71],
+"variable":false
+}

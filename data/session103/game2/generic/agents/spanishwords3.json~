@@ -1,0 +1,32 @@
+{
+  "type": "words",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"toucan", "say":"silence"}
+          ]
+         }
+      ]
+     }
+   ],
+  
+  "directions":
+  [
+    {
+      "trigger":"bluecup",
+      "options": 
+      [
+        { "sequence":
+          [
+          ]
+        }
+      ]
+    }
+  ]
+}
+

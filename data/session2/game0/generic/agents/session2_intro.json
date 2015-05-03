@@ -18,6 +18,7 @@
             {"agent":"robot", "say":"SpainEspana"},
             {"agent":"robot", "do":"YES"},
             {"agent":"robot", "say":"LetsPlay"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"AGREEMENT"}
           ] 
         }

@@ -1,0 +1,10 @@
+{
+"name": "Dino1",
+"word":["dinosaur"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "",
+"position": [181,-187,-5],
+"scale": [211,211,211],
+"variable":false
+}

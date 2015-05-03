@@ -1,0 +1,141 @@
+{
+  "type": "curiosity",
+  "introduction": 
+  [
+    { 
+      "trigger":"",
+      "options":
+      [
+         { "sequence": 
+          [
+            {"agent":"toucan", "say":"TryToMoveThePictures"}
+          ]
+         }
+      ]
+     }
+   ],
+  
+  "directions":
+  [
+    {
+      "trigger":"everything",
+      "options": 
+      [
+        { "sequence":
+          [
+          ]
+        }
+      ]
+    }
+  ],
+
+  "tap":  
+  [
+    {
+      "trigger":"dino1",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"IamADinosaur"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"Iloveplayinghideandseek"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"Icanstandonmyhead"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"dragon",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"IamADragon"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"MynameisTim"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"Icanflyveryhigh"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"penguin3",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"IamAPenguin"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"Ilovetodiveinthewater"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"DidyouknowIamabird"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"prince",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"IamAPrince"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"MynameisBalor"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"Iloveridinghorses"}
+           ]
+        }
+      ]
+    },
+    {
+      "trigger":"princess",
+      "options":
+      [ 
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"IamAPrincess"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"MynameisKalie"}
+           ]
+        },
+        { "sequence": 
+          [
+            {"agent":"toucan", "say":"Ilovetoreadstories"}
+           ]
+        }
+      ]
+    }
+  ]
+}
+

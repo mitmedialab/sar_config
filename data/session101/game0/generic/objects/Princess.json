@@ -1,0 +1,10 @@
+{
+"name": "Princess",
+"word":["princess"],
+"tag": "PlayObject",
+"draggable": "true",
+"audioFile": "",
+"position": [550,162,-5],
+"scale": [75,75,75],
+"variable":false
+}

@@ -11,15 +11,16 @@
             {"agent":"robot", "say":"OohHi"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"LAUGH"},
-            {"agent":"toucan", "say":"ImAToucan"},
             {"agent":"robot", "lookat":["M","S","M"]},
+            {"agent":"toucan", "say":"ImAToucan"},
             {"agent":"toucan", "do":"FlapWings"},
-            {"agent":"robot", "say":"LetsPlay"},
             {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "say":"LetsPlay"},
             {"agent":"robot", "do":"EXCITED"},
             {"agent":"robot", "say":"GoingToVisit"},
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"toucan", "say":"ImFromSpain"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"YES"}
           ] 
         }

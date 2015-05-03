@@ -9,16 +9,20 @@
         { "sequence": 
           [
             {"agent":"robot", "say":"FunPlaying"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"YES"},
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"toucan", "say":"ExcitedAboutAdventure"},
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"NewFriend"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"EXCITED"},
             {"agent":"robot", "say":"NextZoo"},
+            {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"toucan", "say":"AdiosSeeYouNext"},
             {"agent":"toucan", "do":"FlapWings"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "say":"SeeYou"},
             {"agent":"robot", "do":"AGREEMENT"}
           ] 

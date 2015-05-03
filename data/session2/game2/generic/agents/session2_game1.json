@@ -10,12 +10,16 @@
           [
             {"agent":"toucan", "say":"ZoomLetsGoSpain"},
             {"agent":"toucan", "do":"FlapWings"},
-            {"agent":"robot", "do":"INTERESTED"},
+            {"agent":"robot", "lookat":["M","M","M"]},
+            {"agent":"robot", "do":"LAUGH"},
             {"agent":"robot", "say":"WooHoo"},
+            {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"toucan", "say":"VisitZooInSpain"},
             {"agent":"robot", "say":"ZooFriends"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"EXCITED"},
             {"agent":"robot", "say":"AtZoo"},
+            {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"toucan", "say":"LetsMeetMonkey"}
           ] 
         }
@@ -211,8 +215,9 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"OhWow"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"LittleBearInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"LittleBearInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
            ]
         }
       ]
@@ -225,8 +230,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"WhatWasThat"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"BigBearInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BigBearInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -239,8 +246,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"OhWow"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"LittleBirdInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"LittleBirdInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -253,8 +262,9 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"DidYouHear"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"BigBirdInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BigBirdInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
            ]
         }
       ]
@@ -267,8 +277,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"DidYouHear"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"LittleTigerInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"LittleTigerInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -281,8 +293,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"WhatWasThat"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"BigTigerInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BigTigerInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -295,8 +309,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"OhWow"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"LittleGiraffeInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"LittleGiraffeInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -309,8 +325,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"WhatWasThat"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"BigGiraffeInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BigGiraffeInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -323,8 +341,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"OhWow"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"BlueBirdInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"BlueBirdInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -337,8 +357,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"WhatWasThat"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"RedBirdInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"RedBirdInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -351,8 +373,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"OhWow"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"CleanElephantInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"CleanElephantInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -365,8 +389,10 @@
           [
             {"agent":"robot", "lookat":["M","S","M"]},
             {"agent":"robot", "say":"WhatWasThat"},
-            {"agent":"robot", "lookat":["M","M","M"]},
-            {"agent":"toucan", "say":"DirtyElephantInSpanish"}
+            {"agent":"robot", "lookat":["M","S","C"]},
+            {"agent":"toucan", "say":"DirtyElephantInSpanish"},
+            {"agent":"robot", "lookat":["M","M","M"]}
+
            ]
         }
       ]
@@ -383,7 +409,6 @@
         { "sequence": 
           [
             {"agent":"robot", "lookat":["M","S","C"]},
-            {"agent":"robot", "do":"INTERESTED"},
             {"agent":"robot", "say":"MoveFinger"},
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -392,7 +417,6 @@
         { "sequence": 
           [
             {"agent":"robot", "lookat":["M","S","C"]},
-            {"agent":"robot", "do":"INTERESTED"},
             {"agent":"robot", "say":"TouchPicture"},
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -401,7 +425,6 @@
         { "sequence": 
           [
             {"agent":"robot", "lookat":["M","S","C"]},
-            {"agent":"robot", "do":"INTERESTED"},
             {"agent":"robot", "say":"TouchGently"},
             {"agent":"toucan", "do":"FlapWings"},
             {"agent":"robot", "lookat":["M","M","M"]}
@@ -1057,6 +1080,7 @@
       [
          { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"EXCITED"},
             {"agent":"robot", "say":"HelpedGive"},
             {"agent":"toucan", "say":"Yay"}

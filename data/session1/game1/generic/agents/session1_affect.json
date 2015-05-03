@@ -9,11 +9,13 @@
         { "sequence": 
           [
             {"agent":"robot", "say":"Trying"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"INTERESTED"}
           ] 
         },
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"INTERESTED"},
             {"agent":"robot", "say":"ThanksWorking"},
             {"agent":"robot", "lookat":["M","M","C"]}
@@ -21,6 +23,7 @@
         },
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"EXCITED"},
             {"agent":"robot", "say":"WooHooWorking"}
           ] 
@@ -34,11 +37,13 @@
         { "sequence": 
           [
             {"agent":"robot", "say":"KeepPacking"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"AGREEMENT"}
           ] 
         },
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"THINKING"},
             {"agent":"robot", "say":"DontForget"}
 
@@ -46,6 +51,7 @@
         },
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"THINKING"},
             {"agent":"robot", "say":"Heavy"}
           ] 
@@ -59,12 +65,14 @@
       [
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"FRUSTRATED"},
             {"agent":"robot", "say":"ThisIsHard"}
           ] 
         },
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"PUZZLED"},
             {"agent":"robot", "say":"CantDecide"}
           ] 
@@ -72,6 +80,7 @@
         { "sequence": 
           [
             {"agent":"robot", "say":"WontFit"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"NO"}
           ] 
         }
@@ -84,6 +93,7 @@
       [
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"LAUGH"},
             {"agent":"robot", "say":"SoMuchFun"}
           ] 
@@ -91,11 +101,13 @@
         { "sequence": 
           [
             {"agent":"robot", "say":"Excited"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"EXCITED"}
           ] 
         },
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"LAUGH"},
             {"agent":"robot", "say":"LikePlaying"}
           ] 
@@ -109,6 +121,7 @@
       [
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"THINKING"},
             {"agent":"robot", "say":"Weather"}
           ] 
@@ -131,6 +144,7 @@
       [
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"FRUSTRATED"},
             {"agent":"robot", "say":"Itchy"}
           ] 
@@ -138,11 +152,13 @@
         { "sequence": 
           [
             {"agent":"robot", "say":"Hungry"},
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"SAD"}
           ] 
         },
         { "sequence": 
           [
+            {"agent":"robot", "lookat":["M","M","M"]},
             {"agent":"robot", "do":"YAWN"},
             {"agent":"robot", "say":"Tired"}
           ] 
