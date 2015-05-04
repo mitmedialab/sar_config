@@ -1,6 +1,6 @@
 {
-"name": "tiger",
-"word":["tiger"],
+"name": "bigtiger",
+"word":["tiger","big"],
 "tag": "PlayObject",
 "draggable": "true",
 "audioFile": "",

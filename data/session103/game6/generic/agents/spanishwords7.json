@@ -18,12 +18,12 @@
   "directions":
   [
     {
-      "trigger":"balloon",
+      "trigger":"balloons",
       "options": 
       [
         { "sequence":
           [
-	    {"agent":"toucan", "say":"BalloonAssessment"}
+	    {"agent":"toucan", "say":"BalloonsAssessment"}
           ]
         }
       ]
