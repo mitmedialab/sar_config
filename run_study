@@ -1,6 +1,3 @@
-cp -r ~/eclipse_ws/sar_jar/*.jar .
-cp -r ~/eclipse_ws/sar_data_node/data/* data/
-
 java -jar sar_data_node.jar &
 sleep 0.5
 java -jar sar_game_node.jar &
