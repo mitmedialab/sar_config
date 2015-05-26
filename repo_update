@@ -35,3 +35,6 @@ git fetch --all
 git reset --hard origin/master
 cd ..
 
+cd ~/sar_config/
+cp -rf ~/eclipse_ws/sar_jar/*.jar .
+cp -rf ~/eclipse_ws/sar_data_node/data/* data/
